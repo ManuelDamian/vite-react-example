@@ -1,0 +1,21 @@
+.PartsConteiner {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    width: auto;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    min-width: 60% ;
+    min-height: 50%;
+}
+
+@media only screen and (max-width: 660px){
+    .content {
+        flex-direction: column;
+    }
+}
