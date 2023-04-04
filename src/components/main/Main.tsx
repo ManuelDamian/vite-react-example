@@ -18,13 +18,13 @@ const main = () => {
     <Container className="main-content">
       <Box className="card-container"> 
         <Card className="card-item">
-          1
+          <SedansPart/>
         </Card>
         <Card className="card-item">
-          2
+        <SuvsPart/>
         </Card>
         <Card className="card-item">
-          3
+        <LuxaryPart/>
         </Card>
       </Box>
     </Container>
